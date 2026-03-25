@@ -1,0 +1,32 @@
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    width: 100%;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+.card h3 a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.card h3 a:hover {
+  color: #6C63FF;
+  text-decoration: underline;
+}
+.cards {
+  margin-bottom: 80px;
+}

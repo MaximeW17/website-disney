@@ -1,0 +1,31 @@
+.about {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.about .avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+.about-text h2 {
+  font-size: 36px;
+  margin-bottom: 16px;
+  color: #1a1a2e;
+}
+
+.about-text p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #555;
+}
