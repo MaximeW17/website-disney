@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
 
-@import url("components/container.css");
-@import url("components/avatar.css");
-@import url("components/button.css");
-@import url("components/banner.css");
-@import url("components/card.css");
-@import url("components/about.css");
+@import url("banner.css");
+@import url("avatar.css");
+@import url("button.css");
+@import url("card.css");
+@import url("container.css");
+@import url("about.css");
 
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@300;400;500&display=swap');
